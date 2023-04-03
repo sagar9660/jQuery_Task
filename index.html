@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="sagar.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+
+    <title>Hello, world!</title>
+    <!-- <style>
+        #draggable { width: 150px; height: 150px; padding: 0.5em; }
+    </style> -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- <script>
+    $( function() {
+        $( "#draggable" ).draggable();
+    } );
+    </script> -->
+</head>
+
+<body>
+    <button type="button" class="btn btn-dark " data-toggle="modal" data-target="#exampleModalCenter1">
+        Heading
+    </button>
+
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle1">heading</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="btn1">
+                        <div>
+                            <label class="heading label">heading</label><br>
+
+                            <input type="text" id="hid">
+                            <br><br>
+                        </div>
+                        <button type="submit" class="btn1 btn-dark">
+                            Submit
+                        </button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Section -->
+
+    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter2">
+        Sub heading
+    </button>
+
+
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle2">sub heading</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                 </div>
+                 <div class="modal-body">
+                    <form id="btn2">
+                        <div>
+                            <select type="selectar" class="slct" value="select">
+                                <option value="">select</option>
+
+                            </select>
+
+                            <br><label class="heading label">Sub-heading</label><br>
+                            <input type="text" id="hid2">
+                        </div>
+                        <button type="submit" class="btn btn-dark">Save </button>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section -->
+
+    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter3">
+        Form
+    </button>
+
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle3">Form</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="btn3">
+                    <div>
+                        <strong><label class="heading label">Heading</label></strong>
+                        <select type="selectar" class="slct2" value="select">
+                            <option value="">select</option>
+
+                        </select>
+                          <br><br>
+                          <strong><label class="heading label">Sub-heading</label></strong>
+                          <select type="selectar" class="slct3" value="select">
+                            <option value="">select</option>
+
+                        </select>
+                        <br><br>
+                        <strong><label class="heading label">Input-Type </label></strong>
+                      <select type="selectar" class="slct4" value="select">
+                        <!-- <option value="">select</option> -->
+                        <option value="text">text</option>
+                        <option value="checkbox">checkbox</option>
+                        <option value="radio">radio</option>
+                        <option value="email">email</option>
+                        <option value="file">file</option>
+                        <option value="date">date</option>
+                          <option value="month">month</option>
+                          <option value="number">number</option>
+                          <option value="button">Button</option>
+                          <option value="password">password</option>
+                          <option value="text">Text</option>
+                          <option value="submit">submit</option>
+                          <option value="datetime-local">datetime-local</option>
+                          <option value="range">range</option>
+                          <option value="reset">reset</option>
+                          <option value="search">search</option> 
+                          <option value="textarea">textarea</option>
+                          <option value="tel">tel</option>
+                          <option value="select">select</option>
+                          <option value="week">week</option>
+                          <option value="time">time</option>
+                          <option value="url">url</option>
+
+                      </select><hr>
+
+                      <br><label class="heading label">value</label>
+                      <input type="text" id="valueinput">
+                      
+                      <br><label class="heading label">Class</label>
+                      <input type="text" id="classinput">
+
+                      <br><label class="heading label">Label</label>
+                      <input type="text" id="lableinput">
+
+                      <br><label class="heading label">placeholder</label>
+                      <input type="text" id="placeholderinput" ><br>
+
+                     
+
+                      <br><label class="heading label">Option</label>
+                      <input type="text" id="optioninput"><br>
+
+                    
+
+                     <input type="checkbox" id="required" value="required">
+                      <label class="heading label">Required</label><br>
+
+                      <input type="checkbox" id="cekbxredoly"  value="readonly">
+                      <label class="heading label">read only</label><br>
+
+                      <input type="checkbox"  id="disabled" value="disabled">
+                      <label class="heading label">disabled</label><br>
+                   
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-dark">Save </button>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <main id="headinditem">
+       
+        
+    </main>
+    <!-- <div id="draggable" class="ui-widget-content">
+        <p>Drag me around</p>
+      </div> -->
+    
+    <div id="hello">
+        
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>
